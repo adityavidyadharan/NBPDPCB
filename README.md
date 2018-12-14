@@ -1,4 +1,5 @@
 # NBPDPCB
 
 
-PCB for NBPD Lighting Project
+PCB Layout and Multisim for NBPD Lighting Project
+
