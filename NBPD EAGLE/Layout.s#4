@@ -456,15 +456,25 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <attribute name="NAME" x="15.24" y="61.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="15.24" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="Y1" gate="G$1" x="-124.46" y="0" smashed="yes">
-<attribute name="NAME" x="-64.77" y="7.62" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-64.77" y="5.08" size="1.778" layer="96" align="center-left"/>
+<instance part="Y1" gate="G$1" x="-111.76" y="88.9" smashed="yes">
+<attribute name="NAME" x="-52.07" y="96.52" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-52.07" y="93.98" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC1" gate="P" x="-111.76" y="43.18" smashed="yes">
+<attribute name="NAME" x="-113.03" y="42.545" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
 <bus name="N$1">
 <segment>
+<wire x1="-114.3" y1="12.7" x2="-142.24" y2="12.7" width="0.762" layer="92"/>
 <wire x1="-114.3" y1="12.7" x2="116.84" y2="12.7" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="5V">
+<segment>
+<wire x1="-142.24" y1="0" x2="116.84" y2="0" width="0.762" layer="92"/>
+<label x="35.56" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -509,6 +519,19 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <wire x1="50.8" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="35.56" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="A" pin="RES"/>
+<wire x1="-114.3" y1="30.48" x2="-114.3" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="RES"/>
+<wire x1="-71.12" y1="27.94" x2="-71.12" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="GND"/>
+<wire x1="-111.76" y1="86.36" x2="-142.24" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="86.36" x2="-142.24" y2="12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -540,6 +563,24 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <pinref part="IC5" gate="A" pin="CLK"/>
 <wire x1="76.2" y1="35.56" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="P1"/>
+<wire x1="-114.3" y1="58.42" x2="-116.84" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="58.42" x2="-116.84" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="76.2" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="OUTPUT"/>
+<wire x1="-35.56" y1="88.9" x2="-48.26" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="IC1" gate="P" pin="VDD"/>
+<wire x1="-111.76" y1="50.8" x2="-124.46" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="50.8" x2="-124.46" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -463,6 +463,21 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <instance part="IC1" gate="P" x="-111.76" y="43.18" smashed="yes">
 <attribute name="NAME" x="-113.03" y="42.545" size="1.778" layer="95"/>
 </instance>
+<instance part="IC2" gate="P" x="-68.58" y="40.64" smashed="yes">
+<attribute name="NAME" x="-69.85" y="40.005" size="1.778" layer="95"/>
+</instance>
+<instance part="IC3" gate="P" x="-30.48" y="53.34" smashed="yes">
+<attribute name="NAME" x="-31.75" y="52.705" size="1.778" layer="95"/>
+</instance>
+<instance part="IC6" gate="P" x="10.16" y="55.88" smashed="yes">
+<attribute name="NAME" x="8.89" y="55.245" size="1.778" layer="95"/>
+</instance>
+<instance part="IC4" gate="P" x="50.8" y="55.88" smashed="yes">
+<attribute name="NAME" x="49.53" y="55.245" size="1.778" layer="95"/>
+</instance>
+<instance part="IC5" gate="P" x="96.52" y="53.34" smashed="yes">
+<attribute name="NAME" x="95.25" y="52.705" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 <bus name="N$1">
@@ -474,7 +489,13 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <bus name="5V">
 <segment>
 <wire x1="-142.24" y1="0" x2="116.84" y2="0" width="0.762" layer="92"/>
-<label x="35.56" y="-10.16" size="1.778" layer="95"/>
+<label x="-149.86" y="5.08" size="1.778" layer="95"/>
+</segment>
+</bus>
+<bus name="6V">
+<segment>
+<wire x1="-142.24" y1="-15.24" x2="119.38" y2="-15.24" width="0.762" layer="92"/>
+<label x="-147.32" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -581,6 +602,33 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <pinref part="IC1" gate="P" pin="VDD"/>
 <wire x1="-111.76" y1="50.8" x2="-124.46" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="50.8" x2="-124.46" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="P" pin="VDD"/>
+<wire x1="-68.58" y1="48.26" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="48.26" x2="-78.74" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="6V" class="0">
+<segment>
+<pinref part="IC3" gate="P" pin="VDD"/>
+<wire x1="-30.48" y1="60.96" x2="-38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="53.34" x2="-38.1" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="P" pin="VDD"/>
+<wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="0" y1="63.5" x2="0" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="P" pin="VDD"/>
+<wire x1="50.8" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="63.5" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="P" pin="VDD"/>
+<wire x1="96.52" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
