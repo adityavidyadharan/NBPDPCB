@@ -432,38 +432,157 @@ Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Oscillators/ACHL.
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="A" x="22.86" y="73.66" smashed="yes">
-<attribute name="NAME" x="15.24" y="89.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="15.24" y="53.34" size="1.778" layer="96"/>
+<instance part="IC1" gate="A" x="-101.6" y="45.72" smashed="yes">
+<attribute name="NAME" x="-109.22" y="61.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-109.22" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="A" x="71.12" y="73.66" smashed="yes">
-<attribute name="NAME" x="63.5" y="89.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="63.5" y="53.34" size="1.778" layer="96"/>
+<instance part="IC2" gate="A" x="-58.42" y="43.18" smashed="yes">
+<attribute name="NAME" x="-66.04" y="59.055" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-66.04" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="A" x="111.76" y="43.18" smashed="yes">
-<attribute name="NAME" x="104.14" y="59.055" size="1.778" layer="95"/>
-<attribute name="VALUE" x="104.14" y="22.86" size="1.778" layer="96"/>
+<instance part="IC3" gate="A" x="-17.78" y="43.18" smashed="yes">
+<attribute name="NAME" x="-25.4" y="59.055" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-25.4" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="A" x="68.58" y="-12.7" smashed="yes">
-<attribute name="NAME" x="60.96" y="3.175" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.96" y="-33.02" size="1.778" layer="96"/>
+<instance part="IC4" gate="A" x="63.5" y="45.72" smashed="yes">
+<attribute name="NAME" x="55.88" y="61.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="A" x="27.94" y="-15.24" smashed="yes">
-<attribute name="NAME" x="20.32" y="0.635" size="1.778" layer="95"/>
-<attribute name="VALUE" x="20.32" y="-35.56" size="1.778" layer="96"/>
+<instance part="IC5" gate="A" x="109.22" y="43.18" smashed="yes">
+<attribute name="NAME" x="101.6" y="59.055" size="1.778" layer="95"/>
+<attribute name="VALUE" x="101.6" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="IC6" gate="A" x="111.76" y="-15.24" smashed="yes">
-<attribute name="NAME" x="104.14" y="0.635" size="1.778" layer="95"/>
-<attribute name="VALUE" x="104.14" y="-35.56" size="1.778" layer="96"/>
+<instance part="IC6" gate="A" x="22.86" y="45.72" smashed="yes">
+<attribute name="NAME" x="15.24" y="61.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="15.24" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="Y1" gate="G$1" x="0" y="27.94" smashed="yes">
-<attribute name="NAME" x="59.69" y="35.56" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="59.69" y="33.02" size="1.778" layer="96" align="center-left"/>
+<instance part="Y1" gate="G$1" x="-111.76" y="88.9" smashed="yes">
+<attribute name="NAME" x="-52.07" y="96.52" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-52.07" y="93.98" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC1" gate="P" x="-111.76" y="43.18" smashed="yes">
+<attribute name="NAME" x="-113.03" y="42.545" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
+<bus name="N$1">
+<segment>
+<wire x1="-114.3" y1="12.7" x2="-142.24" y2="12.7" width="0.762" layer="92"/>
+<wire x1="-114.3" y1="12.7" x2="116.84" y2="12.7" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="5V">
+<segment>
+<wire x1="-142.24" y1="0" x2="116.84" y2="0" width="0.762" layer="92"/>
+<label x="35.56" y="-10.16" size="1.778" layer="95"/>
+</segment>
+</bus>
 </busses>
 <nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="Q6"/>
+<pinref part="IC2" gate="A" pin="P1"/>
+<wire x1="-88.9" y1="45.72" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="55.88" x2="-71.12" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="A" pin="ENA"/>
+<wire x1="-30.48" y1="33.02" x2="-38.1" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="33.02" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="A" pin="RES"/>
+<wire x1="-30.48" y1="27.94" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="A" pin="ENA"/>
+<wire x1="10.16" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="35.56" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="A" pin="RES"/>
+<wire x1="10.16" y1="30.48" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="A" pin="ENA"/>
+<wire x1="96.52" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="33.02" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="A" pin="RES"/>
+<wire x1="96.52" y1="27.94" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="A" pin="ENA"/>
+<wire x1="50.8" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="35.56" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="RES"/>
+<wire x1="-114.3" y1="30.48" x2="-114.3" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="RES"/>
+<wire x1="-71.12" y1="27.94" x2="-71.12" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="GND"/>
+<wire x1="-111.76" y1="86.36" x2="-142.24" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="86.36" x2="-142.24" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="Q9"/>
+<pinref part="IC3" gate="A" pin="CLK"/>
+<wire x1="-45.72" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="35.56" x2="-30.48" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="Q9"/>
+<pinref part="IC6" gate="A" pin="CLK"/>
+<wire x1="-5.08" y1="33.02" x2="0" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="0" y1="45.72" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="Q9"/>
+<pinref part="IC4" gate="A" pin="CLK"/>
+<wire x1="35.56" y1="35.56" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="Q9"/>
+<pinref part="IC5" gate="A" pin="CLK"/>
+<wire x1="76.2" y1="35.56" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="P1"/>
+<wire x1="-114.3" y1="58.42" x2="-116.84" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="58.42" x2="-116.84" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="76.2" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="OUTPUT"/>
+<wire x1="-35.56" y1="88.9" x2="-48.26" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="IC1" gate="P" pin="VDD"/>
+<wire x1="-111.76" y1="50.8" x2="-124.46" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="50.8" x2="-124.46" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

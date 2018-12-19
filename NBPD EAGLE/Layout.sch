@@ -880,6 +880,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="104.14" y="101.6" size="1.778" layer="91">9V IN</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="-101.6" y="45.72" smashed="yes">
@@ -1098,10 +1099,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-38.1" y1="60.96" x2="-38.1" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="P" pin="VDD"/>
-<wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="P" pin="VDD"/>
 <wire x1="50.8" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="63.5" x2="38.1" y2="-15.24" width="0.1524" layer="91"/>
@@ -1118,6 +1115,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="144.78" y1="116.84" x2="144.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="-15.24" x2="114.3" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="P" pin="VDD"/>
+<wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="0" y1="63.5" x2="0" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -1133,6 +1135,12 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-109.22" y1="99.06" x2="2.54" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="99.06" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
 <junction x="2.54" y="86.36"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC7" gate="A1" pin="VI"/>
+<wire x1="116.84" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
