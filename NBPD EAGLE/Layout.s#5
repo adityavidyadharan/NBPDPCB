@@ -895,7 +895,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="R3" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="R" device=""/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="IC7" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="18"/>
-<part name="R4" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="R" device=""/>
+<part name="R4" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="R" device="" value="220"/>
 <part name="R5" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="R" device=""/>
 <part name="C1" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="C" device=""/>
 <part name="C2" library="docu-dummy" library_urn="urn:adsk.eagle:library:215" deviceset="C" device=""/>

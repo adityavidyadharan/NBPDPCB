@@ -921,7 +921,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <text x="0" y="73.66" size="1.778" layer="91">1K Ω</text>
 <text x="101.6" y="93.98" size="1.778" layer="91">.33 µF</text>
 <text x="129.54" y="78.74" size="1.778" layer="91">1 µF</text>
-<text x="-91.44" y="119.38" size="1.778" layer="91">.1 µF capacitors attached to all IC power</text>
+<text x="-91.44" y="119.38" size="1.778" layer="91">.1 µF capacitors attached to all IC power input</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="-101.6" y="45.72" smashed="yes">
