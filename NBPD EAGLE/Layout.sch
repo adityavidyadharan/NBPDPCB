@@ -917,6 +917,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <text x="-152.4" y="17.78" size="1.778" layer="91">GND</text>
 <text x="35.56" y="88.9" size="1.778" layer="91">220Ω</text>
 <text x="33.02" y="96.52" size="1.778" layer="91">330Ω</text>
+<text x="-22.86" y="73.66" size="1.778" layer="91">1K Ω</text>
+<text x="0" y="73.66" size="1.778" layer="91">1K Ω</text>
+<text x="101.6" y="93.98" size="1.778" layer="91">.33 µF</text>
+<text x="129.54" y="78.74" size="1.778" layer="91">1 µF</text>
+<text x="-91.44" y="119.38" size="1.778" layer="91">.1 µF capacitors attached to all IC power</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="-101.6" y="45.72" smashed="yes">
