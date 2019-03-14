@@ -922,6 +922,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <text x="101.6" y="93.98" size="1.778" layer="91">.33 µF</text>
 <text x="129.54" y="78.74" size="1.778" layer="91">1 µF</text>
 <text x="-91.44" y="119.38" size="1.778" layer="91">.1 µF capacitors attached to all IC power input</text>
+<text x="25.4" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
+<text x="66.04" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
+<text x="111.76" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
+<text x="-88.9" y="109.22" size="1.778" layer="91">OUTPUTS OF 4017
+CONNECTED TO ANODE OF LEDs</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="-101.6" y="45.72" smashed="yes">
@@ -1363,6 +1368,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
