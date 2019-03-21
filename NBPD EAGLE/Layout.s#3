@@ -1121,8 +1121,8 @@ CONNECTED TO ANODE OF LEDs</text>
 <instance part="LED10" gate="G$1" x="144.78" y="-187.96" smashed="yes" rot="R180">
 <attribute name="VALUE" x="132.08" y="-194.31" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED11" gate="G$1" x="15.24" y="-86.36" smashed="yes" rot="R180">
-<attribute name="VALUE" x="2.54" y="-92.71" size="1.778" layer="96" rot="R180"/>
+<instance part="LED11" gate="G$1" x="-22.86" y="-88.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-35.56" y="-95.25" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LED12" gate="G$1" x="17.78" y="-96.52" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.08" y="-102.87" size="1.778" layer="96" rot="R180"/>
