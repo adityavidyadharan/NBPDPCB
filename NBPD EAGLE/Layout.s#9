@@ -1718,6 +1718,48 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="111.76" y1="-195.58" x2="88.9" y2="-195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="10HZGROUND" class="0">
+<segment>
+<pinref part="LED11" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-81.28" x2="66.04" y2="-81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED12" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-93.98" x2="66.04" y2="-93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED13" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-106.68" x2="66.04" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED14" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-119.38" x2="66.04" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-132.08" x2="66.04" y2="-132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED16" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-144.78" x2="66.04" y2="-144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED17" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-157.48" x2="66.04" y2="-157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED19" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-182.88" x2="66.04" y2="-182.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED18" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-170.18" x2="66.04" y2="-170.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED20" gate="G$1" pin="K"/>
+<wire x1="73.66" y1="-195.58" x2="66.04" y2="-195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

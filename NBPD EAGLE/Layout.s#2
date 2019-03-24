@@ -5319,6 +5319,14 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="IC4" gate="P" pin="VSS"/>
 <wire x1="81.28" y1="20.32" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="A" pin="ENA"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="30.48" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="RES"/>
+<junction x="5.08" y="30.48"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -5854,6 +5862,15 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="LED30" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="35.56" x2="55.88" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-193.04" x2="30.48" y2="-193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="CO"/>
+<wire x1="-5.08" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="A" pin="CLK"/>
+<wire x1="0" y1="27.94" x2="0" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="0" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

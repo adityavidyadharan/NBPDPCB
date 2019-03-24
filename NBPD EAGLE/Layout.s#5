@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5021,10 +5021,10 @@ CONNECTED TO ANODE OF LEDs</text>
 <attribute name="VALUE" x="55.74618125" y="91.5726" size="2.08553125" layer="96" ratio="10" rot="SR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="121.92" y="-63.5" smashed="yes" rot="R90">
-<attribute name="R6" x="121.92" y="-63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="R6" x="119.38" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="66.04" y="-63.5" smashed="yes" rot="R90">
-<attribute name="R5" x="66.04" y="-63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="R5" x="63.5" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X_1" gate="G$1" x="10.16" y="-58.42" smashed="yes"/>
 <instance part="IC7" gate="A1" x="127" y="99.06" smashed="yes">
@@ -5104,7 +5104,7 @@ CONNECTED TO ANODE OF LEDs</text>
 <attribute name="VALUE" x="86.36" y="-189.23" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="35.56" y="-63.5" smashed="yes" rot="R90">
-<attribute name="R4" x="35.56" y="-63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="R4" x="33.02" y="-60.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED21" gate="G$1" x="43.18" y="-81.28" smashed="yes">
 <attribute name="VALUE" x="55.88" y="-74.93" size="1.778" layer="96"/>
@@ -5263,6 +5263,10 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="121.92" y1="-58.42" x2="121.92" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="121.92" y="-53.34"/>
 <pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="-134.62" y1="33.02" x2="-134.62" y2="12.7" width="0.1524" layer="91"/>
@@ -5359,6 +5363,8 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="-7.62" y1="76.2" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-35.56" y="76.2"/>
 <junction x="-7.62" y="71.12"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5410,6 +5416,7 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="7.62" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="71.12" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 <junction x="99.06" y="116.84"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="VDD"/>
@@ -5449,6 +5456,7 @@ CONNECTED TO ANODE OF LEDs</text>
 <junction x="-111.76" y="88.9"/>
 <junction x="43.18" y="86.36"/>
 <junction x="22.86" y="86.36"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -5464,6 +5472,8 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="U1" gate="A" pin="ADJ"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <junction x="43.18" y="101.6"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
