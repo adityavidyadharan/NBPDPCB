@@ -7732,6 +7732,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="LED30" library="SSL-LX5093TC" deviceset="SSL-LX5093TC" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7919,6 +7920,7 @@ CONNECTED TO ANODE OF LEDs</text>
 </instance>
 <instance part="C7" gate="G$1" x="15.24" y="5.08" smashed="yes" rot="R180"/>
 <instance part="C8" gate="G$1" x="71.12" y="5.08" smashed="yes" rot="R180"/>
+<instance part="C9" gate="G$1" x="129.54" y="20.32" smashed="yes"/>
 </instances>
 <busses>
 <bus name="N$1">
@@ -8126,6 +8128,10 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="10.16" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="15.24" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="C1K" class="0">
 <segment>
@@ -8191,6 +8197,15 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="0" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
 <junction x="10.16" y="2.54"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="P" pin="VDD"/>
+<wire x1="147.32" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="0" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<junction x="114.3" y="22.86"/>
 </segment>
 </net>
 <net name="6V" class="0">

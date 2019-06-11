@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7947,6 +7947,8 @@ CONNECTED TO ANODE OF LEDs</text>
 <segment>
 <label x="17.78" y="-66.04" size="1.778" layer="95"/>
 </segment>
+</bus>
+<bus name="100HZGROUND">
 <segment>
 <wire x1="7.62" y1="-66.04" x2="7.62" y2="-193.04" width="0.762" layer="92"/>
 </segment>
@@ -8536,52 +8538,8 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="73.66" y1="-195.58" x2="66.04" y2="-195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED21" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-78.74" x2="7.62" y2="-78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED22" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-91.44" x2="7.62" y2="-91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED23" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-104.14" x2="7.62" y2="-104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED24" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-116.84" x2="7.62" y2="-116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED25" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-129.54" x2="7.62" y2="-129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED26" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-142.24" x2="7.62" y2="-142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED27" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-154.94" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED29" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-180.34" x2="7.62" y2="-180.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED28" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-167.64" x2="7.62" y2="-167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED30" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-193.04" x2="7.62" y2="-193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="-66.04" x2="66.04" y2="-71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="-63.5" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED16" gate="G$1" pin="K"/>
@@ -8684,6 +8642,53 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="IC6" gate="A" pin="CLK"/>
 <wire x1="0" y1="27.94" x2="0" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="0" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="100HZGROUND" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="-63.5" x2="7.62" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED21" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-78.74" x2="7.62" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED22" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-91.44" x2="7.62" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED23" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-104.14" x2="7.62" y2="-104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED24" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-116.84" x2="7.62" y2="-116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED25" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-129.54" x2="7.62" y2="-129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED26" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-142.24" x2="7.62" y2="-142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED27" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-154.94" x2="7.62" y2="-154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED28" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-167.64" x2="7.62" y2="-167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED29" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-180.34" x2="7.62" y2="-180.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED30" gate="G$1" pin="K"/>
+<wire x1="17.78" y1="-193.04" x2="7.62" y2="-193.04" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-193.04" x2="7.62" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
