@@ -2752,6 +2752,31 @@ design rules under a new name.</description>
 <wire x1="85.09" y1="99.06" x2="84.7725" y2="99.314" width="1.524" layer="16"/>
 <wire x1="130.81" y1="86.36" x2="131.1275" y2="86.614" width="1.524" layer="16"/>
 </signal>
+<signal name="N$4">
+<via x="191.77" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+<via x="194.31" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$5">
+<via x="189.23" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$6">
+<via x="186.69" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$7">
+<via x="184.15" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$8">
+<via x="181.61" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$9">
+<via x="179.07" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$10">
+<via x="173.99" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
+<signal name="N$2">
+<via x="176.53" y="265.43" extent="1-16" drill="0.65" shape="square"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
