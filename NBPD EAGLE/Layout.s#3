@@ -8278,7 +8278,7 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="ADJ" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="ADJ"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
