@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/adityavidyadharan/Google Drive/Education/School/Clubs/CS/Paterno/NBPD Lighting Project/NBPD LIGHTING PROJECT/Schematics/PCB/NBPD EAGLE/Layout.brd
 
-Start at      : 18:48:41 (6/12/19)
-End at        : 18:52:48 (6/12/19)
-Elapsed time  : 00:03:25
+Start at      : 20:41:35 (9/4/19)
+End at        : 20:41:38 (9/4/19)
+Elapsed time  : 00:00:00
 
-Signals       :    45   RoutingGrid: 6.25 mil  Layers: 2
-Connections   :   152   predefined:  0 ( 30 Vias )
+Signals       :    45   RoutingGrid: 45 mil  Layers: 2
+Connections   :   122   predefined:  122 ( 55 Vias )
 
-Router memory :   9674496
+Router memory :   198576
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:03  00:00:32  00:00:45  00:00:40  00:00:37  00:00:48
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        60       152       152       152       152       152
-Vias              :         0       241        77        29        25        25
-Resolution        :    39.5 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished

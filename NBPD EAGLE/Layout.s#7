@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -809,8 +809,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </description>
 <pad name="1" x="1.27" y="0" drill="0.91" diameter="1.4"/>
 <pad name="2" x="-1.27" y="0" drill="0.91" diameter="1.4"/>
-<text x="-0.497" y="-0.097" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.497" y="-0.097" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="8.393" y="-0.097" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.95" width="0.2" layer="51"/>
 <circle x="0" y="0" radius="2.95" width="0.2" layer="25"/>
 <wire x1="2.365" y1="1.733" x2="2.365" y2="-1.748" width="0.2" layer="51"/>
@@ -7732,6 +7731,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="LED30" library="SSL-LX5093TC" deviceset="SSL-LX5093TC" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7919,6 +7919,7 @@ CONNECTED TO ANODE OF LEDs</text>
 </instance>
 <instance part="C7" gate="G$1" x="15.24" y="5.08" smashed="yes" rot="R180"/>
 <instance part="C8" gate="G$1" x="71.12" y="5.08" smashed="yes" rot="R180"/>
+<instance part="C9" gate="G$1" x="129.54" y="20.32" smashed="yes"/>
 </instances>
 <busses>
 <bus name="N$1">
@@ -8126,6 +8127,10 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="10.16" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="15.24" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="C1K" class="0">
 <segment>
@@ -8192,6 +8197,15 @@ CONNECTED TO ANODE OF LEDs</text>
 <wire x1="15.24" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="91"/>
 <junction x="10.16" y="2.54"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="P" pin="VDD"/>
+<wire x1="147.32" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="0" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<junction x="114.3" y="22.86"/>
+</segment>
 </net>
 <net name="6V" class="0">
 <segment>
@@ -8254,7 +8268,7 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="9V" class="0">
 <segment>
 <pinref part="IC7" gate="A1" pin="VI"/>
 <wire x1="116.84" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
@@ -8263,7 +8277,7 @@ CONNECTED TO ANODE OF LEDs</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="ADJ" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="ADJ"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
