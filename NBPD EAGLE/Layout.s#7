@@ -7684,16 +7684,20 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="R5" value="220"/>
 </part>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="IC7" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="18"/>
+<part name="IC7" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="18">
+<attribute name="SPICEPREFIX" value="J"/>
+</part>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="220"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="330"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value="1uF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".33uF"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="1k"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value="0.33uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value="1uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF">
+<attribute name="SPICEPREFIX" value="C"/>
+</part>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="075-063X106" package3d_urn="urn:adsk.eagle:package:23678/1" value=".1uF"/>
 <part name="LED1" library="SSL-LX5093TC" deviceset="SSL-LX5093TC" device=""/>
@@ -7738,12 +7742,16 @@ Source: AVX .. aphvc.pdf</description>
 <plain>
 <text x="104.14" y="101.6" size="1.778" layer="91">9V IN</text>
 <text x="-152.4" y="17.78" size="1.778" layer="91">GND</text>
-<text x="35.56" y="88.9" size="1.778" layer="91">220Ω</text>
-<text x="33.02" y="96.52" size="1.778" layer="91">330Ω</text>
+<text x="35.56" y="88.9" size="1.778" layer="91">R4
+220Ω</text>
+<text x="33.02" y="96.52" size="1.778" layer="91">R5
+330Ω</text>
 <text x="-22.86" y="73.66" size="1.778" layer="91">1K Ω</text>
 <text x="0" y="73.66" size="1.778" layer="91">1K Ω</text>
-<text x="101.6" y="93.98" size="1.778" layer="91">.33 µF</text>
-<text x="129.54" y="78.74" size="1.778" layer="91">1 µF</text>
+<text x="101.6" y="93.98" size="1.778" layer="91">C3
+.33 µF</text>
+<text x="129.54" y="78.74" size="1.778" layer="91">C4
+1 µF</text>
 <text x="-91.44" y="119.38" size="1.778" layer="91">.1 µF capacitors attached to all IC power input</text>
 <text x="25.4" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
 <text x="66.04" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>

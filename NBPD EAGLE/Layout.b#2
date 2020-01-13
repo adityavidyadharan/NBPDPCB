@@ -82,6 +82,9 @@
 <text x="181.61" y="269.24" size="1.778" layer="1">6V</text>
 <text x="173.99" y="269.24" size="1.778" layer="1">9V</text>
 <hole x="203.2" y="266.7" drill="1"/>
+<hole x="12.7" y="266.7" drill="1"/>
+<hole x="12.7" y="12.7" drill="1"/>
+<hole x="203.2" y="12.7" drill="1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

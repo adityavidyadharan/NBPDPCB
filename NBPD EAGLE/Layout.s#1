@@ -8648,6 +8648,12 @@ NOT  CD74HC4040</text>
 220Ω</text>
 <text x="12.7" y="-60.96" size="1.778" layer="91">R3
 220Ω</text>
+<text x="-7.62" y="-76.2" size="1.778" layer="91">LED21</text>
+<text x="-7.62" y="-193.04" size="1.778" layer="91">LED30</text>
+<text x="68.58" y="-73.66" size="1.778" layer="91">LED11</text>
+<text x="68.58" y="-190.5" size="1.778" layer="91">LED20</text>
+<text x="124.46" y="-68.58" size="1.778" layer="91">LED01</text>
+<text x="124.46" y="-182.88" size="1.778" layer="91">LED10</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="-101.6" y="45.72" smashed="yes">

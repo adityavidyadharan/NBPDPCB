@@ -7751,8 +7751,8 @@ Source: AVX .. aphvc.pdf</description>
 <text x="25.4" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
 <text x="66.04" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
 <text x="111.76" y="-30.48" size="1.778" layer="91">CATHODES OF LEDs</text>
-<text x="-88.9" y="109.22" size="1.778" layer="91">OUTPUTS OF 4017
-CONNECTED TO ANODE OF LEDs</text>
+<text x="-88.9" y="109.22" size="1.778" layer="91">USE   SN74HC4040
+NOT  CD74HC4040</text>
 <text x="130.81" y="13.716" size="1.778" layer="91">C9
 0.1uF</text>
 <text x="74.93" y="3.556" size="1.778" layer="91">C8
